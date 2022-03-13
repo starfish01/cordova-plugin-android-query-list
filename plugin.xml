@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin
+		xmlns="http://apache.org/cordova/ns/plugins/1.0"
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		id="cordova-plugin-android-query-list"
+		version="1.0.0">
+
+	<name>Android List</name>
+
+	<description>
+		This plugin pulls in list of apps that can be queried
+	</description>
+
+	<license>MIT</license>
+
+	<engines>
+			<engine name="cordova" version=">=3.0.0" />
+	</engines>
+
+	<!-- android -->
+	<platform name="android">
+		<config-file target="res/xml/config.xml" parent="/*">
+			<queries>
+				<package android:name="test.package" />
+			</queries>
+		</config-file>
+	</platform>
+</plugin>

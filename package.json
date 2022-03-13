@@ -1,0 +1,22 @@
+{
+  "name": "cordova-plugin-android-query-list",
+  "version": "1.0.0",
+  "description": "This plugin pulls in list of apps that can be queried",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/starfish01/cordova-plugin-android-query-list.git"
+  },
+  "keywords": [
+    "cordova",
+    "launcher",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "author": "Patrick Labes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/starfish01/cordova-plugin-android-query-list/issues"
+  },
+  "homepage": "https://github.com/starfish01/cordova-plugin-android-query-list#readme"
+}
