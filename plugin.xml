@@ -21,7 +21,12 @@
 	<platform name="android">
 		<config-file target="AndroidManifest.xml" parent="/*">
 			<queries>
-				<package android:name="test.package" />
+				<package android:name="com.seqta.android.engage" />
+				<package android:name="seesaw.shadowpuppet.co.classroom" />
+				<package android:name="seesaw.shadowpuppet.co.seesaw" />
+				<package android:name="com.linkedin.android" />
+				<package android:name="com.instagram.android" />
+				<package android:name="com.facebook.katana" />
 			</queries>
 		</config-file>
 	</platform>
