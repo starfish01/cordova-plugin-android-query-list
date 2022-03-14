@@ -19,7 +19,7 @@
 
 	<!-- android -->
 	<platform name="android">
-		<config-file target="res/xml/config.xml" parent="/*">
+		<config-file target="AndroidManifest.xml" parent="/*">
 			<queries>
 				<package android:name="test.package" />
 			</queries>
