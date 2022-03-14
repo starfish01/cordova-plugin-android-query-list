@@ -8,10 +8,8 @@
   },
   "keywords": [
     "cordova",
-    "launcher",
     "ecosystem:cordova",
-    "cordova-android",
-    "cordova-ios"
+    "cordova-android"
   ],
   "author": "Patrick Labes",
   "license": "MIT",

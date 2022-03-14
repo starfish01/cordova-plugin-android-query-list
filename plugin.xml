@@ -20,7 +20,7 @@
 	<!-- android -->
 	<platform name="android">
 		<config-file target="AndroidManifest.xml" parent="/*">
-			<!-- Comment -->
+			<!-- Apps that can be queried -->
 			<queries>
 				<package android:name="com.seqta.android.engage" />
 				<package android:name="seesaw.shadowpuppet.co.classroom" />
